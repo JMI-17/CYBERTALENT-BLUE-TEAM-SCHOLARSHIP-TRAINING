@@ -34,7 +34,7 @@ I highly value feedback, and this repository welcomes constructive feedback from
 | Challenges | Difficulty |                                                Tags                                                | Completed |
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
 |               |            |                                                                                                    |           |
-|     [CVE-Number]()      |    Basic    |                                       EternalBlue, Searchsploit                                       | Completed |
+|     CVE-Number      |    Basic    |                                       EternalBlue, Searchsploit                                       | Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD                                            |        Completed   |
 |    [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
 |     Bean    |    Easy    |                                     LFI, Web                                     | Completed |
