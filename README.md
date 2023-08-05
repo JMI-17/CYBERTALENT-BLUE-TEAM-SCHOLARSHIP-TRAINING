@@ -34,12 +34,13 @@ I highly value feedback, and this repository welcomes constructive feedback from
 | Challenges | Difficulty |                                                Tags                                                | Completed |
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
 |               |            |                                                                                                    |           |
+|      [Competition]()     |    Basic    |                                 CTF, Hacking, Google                                  | Completed |
 |     CVE-Number      |    Basic    |                                       EternalBlue, Searchsploit                                       | Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD                                            |        Completed   |
 |    [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
 |     Bean    |    Easy    |                                     LFI, Web                                     | Completed |
 |    55H-Access    |    Easy    |                              Splunk, Forensic, SSH                             |  Completed|
-|      [Competition]()     |    Basic    |                                 CTF, Hacking, Google                                  | Completed |
+
 |     Creepy-DNS    |   Easy   |                               DNS, DNS Zone Transfer, Google                              |      Completed     |
 |    FourOFour    |   Easy   |                                   Splunk,  Log, IIS Server,Microsoft                                   |      Completed     |
 |     MEGO     |    Medium    |                                       Forensic, Volatility, Disc                                      | Completed |
