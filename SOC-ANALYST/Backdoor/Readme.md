@@ -90,4 +90,8 @@ Ethernet II, Src: PcsCompu_66:e3:8b (08:00:27:66:e3:8b), Dst: IntelCor_c5:20:65 
 > [!IMPORTANT]
 > Using the format of the Flag provided
 
- Flag<br /> <br />flag{Internal:192.168.1.58:CVE-2011-2523:08:00:27:66:e3:8b}
+<li>
+	<details>
+		<summary>Flag</summary>
+flag{Internal:192.168.1.58:CVE-2011-2523:08:00:27:66:e3:8b}</details>
+</li>
