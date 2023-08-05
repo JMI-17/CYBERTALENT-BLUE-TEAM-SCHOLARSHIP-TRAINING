@@ -9,5 +9,5 @@ Cyber threat intelligence is the skill of collecting information out of cyberspa
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{Threat Intellegence}</details>
+flag{Threat Intelligence}</details>
 </li>
