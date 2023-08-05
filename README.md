@@ -35,7 +35,7 @@ I highly value feedback, and this repository welcomes constructive feedback from
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
 |               |            |                                                                                                    |           |
 |      [Competition](SOC-ANALYST/Competition/Readme.MD)    |    Basic    |                            CTF, Hacking, Google                                  | Completed |
-|     [CVE-Number](SOC-ANALYST/CVENumber/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit                   | Completed |
+|     [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit                   | Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD       |        Completed   |
 |    [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
 |     Bean    |    Easy    |                                     LFI, Web                                     | Completed |
