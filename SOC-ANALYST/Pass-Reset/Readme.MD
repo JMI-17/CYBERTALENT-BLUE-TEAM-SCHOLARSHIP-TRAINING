@@ -19,7 +19,7 @@ Archive:  passreset.msg.zip  <br />
 [passreset.msg.zip] Password Reset Request.msg password: <br /> 
 inflating: Password Reset Request.ms <br />
 
-**$ ls** 
+**$ ls** <br />
 'Password Reset Request.msg' <br />
 
 **$ cat 'Password Reset Request.msg'** <br />
