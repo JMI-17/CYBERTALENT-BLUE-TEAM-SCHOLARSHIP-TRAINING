@@ -1,7 +1,7 @@
 # Description
 You have received the email below,  Please examine the email and answer the below questions
 
-###Required in flag:
+### Required in flag:
 X: Sender email
 Y: The date that user received the email
 Z: The domain name of the phishing link that was sent in the email body
@@ -11,43 +11,43 @@ Flag format: flag{X:Y:Z:w}
 # Solution
 - After Dowloading the file from the link provided i tried to unzip it which i discovered was passworded, so i carried out a bruteforce Attack on the file using a tool called fackzip to reveal the password
 
-**$ fcrackzip -u -D -p rockyou.txt  ~/Desktop/passreset.msg.zip (br/)
-PASSWORD FOUND!!!!: pw == infected (br/)
-**$ unzip passreset.msg.zip  (br/)                                 
-Archive:  passreset.msg.zip  (br/)
-[passreset.msg.zip] Password Reset Request.msg password: (br/) 
-inflating: Password Reset Request.ms (br/)
+**$ fcrackzip -u -D -p rockyou.txt  ~/Desktop/passreset.msg.zip <br />
+PASSWORD FOUND!!!!: pw == infected <br />
+**$ unzip passreset.msg.zip  <br />                                 
+Archive:  passreset.msg.zip  <br />
+[passreset.msg.zip] Password Reset Request.msg password: <br /> 
+inflating: Password Reset Request.ms <br />
 
-**$ ls (br/)
+**$ ls 
 'Password Reset Request.msg' (br/)
 
 **$ cat 'Password Reset Request.msg' (br/)
 
 Disclaimer: The content of this email is confidential and intended for the recipient named in the message only. It is strictly forbidden to share any part of this message with any third party, without the written consent  of the sender. If you are not the named addressee and received this message by mistake, please notify the sender and delete this email from your system immediately. Email transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or be incomplete, or contain viruses. The sender therefore does not accept liability for any errors or omissions in the contents of this message which arise as a result of email transmission. (br/)
-10338048-193a-4298-abea-3596ae88b05e������B��j1/00000002/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7ceaf73a696a407f869911b2f2b12a9a T04370nelson.laureano@novobanco.ptgestao.operacao.monitorizacao@noFrom: Password Request <roger@captech.com> (br/)
-To: "Patricia Oliveira (novobanco Digital)" <paoliveira@novobanco.pt> (br/)
-Subject: Password Reset Request (br/)
-Thread-Topic: Password Reset Request (br/)
-Thread-Index: AQHYKlMOQpovkzWfuUqYkPmXdPe1VQ== (br/)
-Date: Fri, 25 Feb 2022 14:22:02 +0000 (br/)
-Message-ID: <PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9@PR3P189MB0953.EURP189.PROD.OUTLOOK.COM> (br/)
-Content-Language: en-US (br/)
-X-MS-Has-Attach: (br/)
-X-Auto-Response-Suppress: -4 (br/)
-X-MS-Exchange-Organization-SCL: -1 (br/)
-X-MS-TNEF-Correlator: (br/)
-X-MS-Exchange-Organization-RecordReviewCfmType: 0 (br/)
-x-ms-exchange-crosstenant-id: 10338048-193a-4298-abea-3596ae88b05e (br/)
-x-microsoft-antispam-message-info: (br/)
-1uws6HFpk3dCEF9dudGqgD/6wYUBss2LQcc2iUnLc/zBKQ/MohMXB1pIDlsvoYKiSjtcqyuHs+tq1DDU8EhMLB0rkMJIwnDSFWZica6BAvL3rlFVkQGULGcgxzfiMNGslrfvfwIvzAL+1chLmKK61L9Bu4KXwBrewarWFXWfh0Rs8q6WrGBpPzXrUDuRAuvUlmJAflqz0G65/ax9LQRHLQ/yDKFuHApakQqDJDNI+vWQ1rQ+qetIthj+7Uwx/bLPORo10vyyI3ukFNTKi3FvhFLtsN+J3dyiQxtBTYk2LaVhcd58G2QA0Tk4HFaQxFU2BI62rupm4nUtGNuwDjshWcosoDWB2y2YvrHSeTo4bA2AHzfB3fFiI9tpbuvwEvFU (br/)
-x-ms-exchange-organization-network-message-id: 1284b588-f2b0-42e4-2506-08d9f86a312f (br/)
-Content-Type: multipart/alternative; (br/)
-        boundary="_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_" (br/)
-MIME-Version: 1.0 (br/)
+10338048-193a-4298-abea-3596ae88b05e������B��j1/00000002/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7ceaf73a696a407f869911b2f2b12a9a T04370nelson.laureano@novobanco.ptgestao.operacao.monitorizacao@noFrom: Password Request <roger@captech.com> <br />
+To: "Patricia Oliveira (novobanco Digital)" <paoliveira@novobanco.pt> 
+Subject: Password Reset Request <br />(br/)
+Thread-Topic: Password Reset Request <br />
+Thread-Index: AQHYKlMOQpovkzWfuUqYkPmXdPe1VQ== <br />
+Date: Fri, 25 Feb 2022 14:22:02 +0000 <br />
+Message-ID: <PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9@PR3P189MB0953.EURP189.PROD.OUTLOOK.COM> <br />
+Content-Language: en-US <br />
+X-MS-Has-Attach: <br />
+X-Auto-Response-Suppress: -4 <br />
+X-MS-Exchange-Organization-SCL: -1 <br />
+X-MS-TNEF-Correlator: <br />
+X-MS-Exchange-Organization-RecordReviewCfmType: 0 <br />
+x-ms-exchange-crosstenant-id: 10338048-193a-4298-abea-3596ae88b05e <br />
+x-microsoft-antispam-message-info: <br />
+1uws6HFpk3dCEF9dudGqgD/6wYUBss2LQcc2iUnLc/zBKQ/MohMXB1pIDlsvoYKiSjtcqyuHs+tq1DDU8EhMLB0rkMJIwnDSFWZica6BAvL3rlFVkQGULGcgxzfiMNGslrfvfwIvzAL+1chLmKK61L9Bu4KXwBrewarWFXWfh0Rs8q6WrGBpPzXrUDuRAuvUlmJAflqz0G65/ax9LQRHLQ/yDKFuHApakQqDJDNI+vWQ1rQ+qetIthj+7Uwx/bLPORo10vyyI3ukFNTKi3FvhFLtsN+J3dyiQxtBTYk2LaVhcd58G2QA0Tk4HFaQxFU2BI62rupm4nUtGNuwDjshWcosoDWB2y2YvrHSeTo4bA2AHzfB3fFiI9tpbuvwEvFU <br />
+x-ms-exchange-organization-network-message-id: 1284b588-f2b0-42e4-2506-08d9f86a312f <br />
+Content-Type: multipart/alternative; <br />
+        boundary="_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_" <br />
+MIME-Version: 1.0 <br />
 
---_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_ (br/)
-Content-Type: text/plain; charset="utf-8" (br/)
-Content-Transfer-Encoding: base64 (br/)
+--_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_ <br />
+Content-Type: text/plain; charset="utf-8" <br />
+Content-Transfer-Encoding: base64 <br />
 
 DQrwn5uIIEVtYWlsIHByb3ZlbmllbnRlIGRlIHVtIGVuZGVyZcOnbyBleHRlcm5vLiBOw6NvIGNs
 aXF1ZSBlbSBsaW5rcyBvdSBhYnJhIGFuZXhvcywgYSBtZW5vcyBxdWUgcmVjb25oZcOnYSBvIHJl
@@ -81,13 +81,13 @@ dGlvbiBjb3VsZCBiZSBpbnRlcmNlcHRlZCwgY29ycnVwdGVkLCBsb3N0LCBkZXN0cm95ZWQsIGFy
 cml2ZSBsYXRlIG9yIGJlIGluY29tcGxldGUsIG9yIGNvbnRhaW4gdmlydXNlcy4gVGhlIHNlbmRl
 ciB0aGVyZWZvcmUgZG9lcyBub3QgYWNjZXB0IGxpYWJpbGl0eSBmb3IgYW55IGVycm9ycyBvciBv
 bWlzc2lvbnMgaW4gdGhlIGNvbnRlbnRzIG9mIHRoaXMgbWVzc2FnZSB3aGljaCBhcmlzZSBhcyBh
-IHJlc3VsdCBvZiBlbWFpbCB0cmFuc21pc3Npb24uDQo= (br/)
+IHJlc3VsdCBvZiBlbWFpbCB0cmFuc21pc3Npb24uDQo= <br />
 
---_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_ (br/)
-X-Exchange-Mime-Skeleton-Content-Id: (br/)
-        AE2C914EB33B234F8D3479A6B71B5832@msg2.novobanco.pt (br/)
-Content-Type: text/html; charset="utf-8" (br/)
-Content-Transfer-Encoding: base64 (br/)
+--_000_PR3P189MB0953E4E9763DCB128D8DE8AFBB3E9PR3P189MB0953EURP_ <br />
+X-Exchange-Mime-Skeleton-Content-Id: <br />
+        AE2C914EB33B234F8D3479A6B71B5832@msg2.novobanco.pt <br />
+Content-Type: text/html; charset="utf-8" <br />
+Content-Transfer-Encoding: base64 <br />
 
 - I Copied the Based64 file and analyzed using MXTOOL and VirusTotal
 - You will find the Domain of the sender
