@@ -100,8 +100,8 @@ Content-Transfer-Encoding: base64 <br />
 - **Virustotal**
 - **MXTool Box**
 - **Fraczip**
+- **UNZip**
 - **GroupDocs MSG Viewer**
-
 
 <li>
 	<details>
