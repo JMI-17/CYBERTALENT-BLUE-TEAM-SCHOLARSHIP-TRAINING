@@ -2,16 +2,17 @@
 You have received the email below,  Please examine the email and answer the below questions
 
 ### Required in flag:
-X: Sender email
-Y: The date that user received the email
-Z: The domain name of the phishing link that was sent in the email body
-W: Do you think that the email is safe or malicious ?
-Flag format: flag{X:Y:Z:w}
+X: Sender email <br />
+Y: The date that user received the email <br />
+Z: The domain name of the phishing link that was sent in the email body<br />
+W: Do you think that the email is safe or malicious ?<br />
+Flag format: flag{X:Y:Z:w}<br />
 
 # Solution
-- After Dowloading the file from the link provided i tried to unzip it which i discovered was passworded, so i carried out a bruteforce Attack on the file using a tool called fackzip to reveal the password
+- After Dowloading the file from the link provided i tried to unzip it which i discovered was passworded, so i carried out a bruteforce Attack on the file using a tool called fackzip to reveal the password<br />
 
 **$ fcrackzip -u -D -p rockyou.txt  ~/Desktop/passreset.msg.zip <br />
+
 PASSWORD FOUND!!!!: pw == infected <br />
 **$ unzip passreset.msg.zip  <br />                                 
 Archive:  passreset.msg.zip  <br />
@@ -19,9 +20,9 @@ Archive:  passreset.msg.zip  <br />
 inflating: Password Reset Request.ms <br />
 
 **$ ls 
-'Password Reset Request.msg' (br/)
+'Password Reset Request.msg' <br />
 
-**$ cat 'Password Reset Request.msg' (br/)
+**$ cat 'Password Reset Request.msg' <br />
 
 Disclaimer: The content of this email is confidential and intended for the recipient named in the message only. It is strictly forbidden to share any part of this message with any third party, without the written consent  of the sender. If you are not the named addressee and received this message by mistake, please notify the sender and delete this email from your system immediately. Email transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or be incomplete, or contain viruses. The sender therefore does not accept liability for any errors or omissions in the contents of this message which arise as a result of email transmission. (br/)
 10338048-193a-4298-abea-3596ae88b05e������B��j1/00000002/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7ceaf73a696a407f869911b2f2b12a9a T04370nelson.laureano@novobanco.ptgestao.operacao.monitorizacao@noFrom: Password Request <roger@captech.com> <br />
@@ -90,9 +91,9 @@ Content-Type: text/html; charset="utf-8" <br />
 Content-Transfer-Encoding: base64 <br />
 
 - I Copied the Based64 file and analyzed using MXTOOL and VirusTotal
-- You will find the Domain of the sender
-> [!IMPORTANT]
-> Using the format of the Flag provided: flag{X:Y:Z:w}
+- You will find the Domain of the sender another way to get this is to open it in Visual Studio or in a mail Editor https://products.groupdocs.app/viewer/msg use "CTR F" the search bar will pop up, and type "From:" <br />
+> [!IMPORTANT]<br />
+> Using the format of the Flag provided: flag{X:Y:Z:w}<br />
 
 <li>
 	<details>
