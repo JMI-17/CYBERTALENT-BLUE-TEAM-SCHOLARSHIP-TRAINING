@@ -95,6 +95,14 @@ Content-Transfer-Encoding: base64 <br />
 > [!IMPORTANT]<br />
 > Using the format of the Flag provided: flag{X:Y:Z:w}<br />
 
+
+# Tools
+- **Virustotal**
+- **MXTool Box**
+- **Fraczip**
+- **GroupDocs MSG Viewer**
+
+
 <li>
 	<details>
 		<summary>Flag</summary>
