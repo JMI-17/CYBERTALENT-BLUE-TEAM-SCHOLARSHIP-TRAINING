@@ -11,18 +11,18 @@ Flag format: flag{X:Y:Z:w}<br />
 # Solution
 - After Dowloading the file from the link provided i tried to unzip it which i discovered was passworded, so i carried out a bruteforce Attack on the file using a tool called fackzip to reveal the password<br />
 
-**$ fcrackzip -u -D -p rockyou.txt  ~/Desktop/passreset.msg.zip <br />
+**$ fcrackzip -u -D -p rockyou.txt  ~/Desktop/passreset.msg.zip** <br />
 
 PASSWORD FOUND!!!!: pw == infected <br />
-**$ unzip passreset.msg.zip  <br />                                 
+**$ unzip passreset.msg.zip**  <br />                                 
 Archive:  passreset.msg.zip  <br />
 [passreset.msg.zip] Password Reset Request.msg password: <br /> 
 inflating: Password Reset Request.ms <br />
 
-**$ ls 
+**$ ls** 
 'Password Reset Request.msg' <br />
 
-**$ cat 'Password Reset Request.msg' <br />
+**$ cat 'Password Reset Request.msg'** <br />
 
 Disclaimer: The content of this email is confidential and intended for the recipient named in the message only. It is strictly forbidden to share any part of this message with any third party, without the written consent  of the sender. If you are not the named addressee and received this message by mistake, please notify the sender and delete this email from your system immediately. Email transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or be incomplete, or contain viruses. The sender therefore does not accept liability for any errors or omissions in the contents of this message which arise as a result of email transmission. (br/)
 10338048-193a-4298-abea-3596ae88b05e������B��j1/00000002/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7ceaf73a696a407f869911b2f2b12a9a T04370nelson.laureano@novobanco.ptgestao.operacao.monitorizacao@noFrom: Password Request <roger@captech.com> <br />
