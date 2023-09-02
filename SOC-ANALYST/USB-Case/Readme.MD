@@ -20,26 +20,26 @@ Note: the initial strings i searched for are "USB and Removable", I investigated
 ```
 8/24/16 6:10:46.000 PM	<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/><EventID>7</EventID><Version>3</Version><Level>4</Level><Task>7</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2016-08-24T18:10:46.773764400Z'/><EventRecordID>442043</EventRecordID><Correlation/><Execution ProcessID='1216' ThreadID='1924'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>we8105desk.waynecorpinc.local</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='UtcTime'>2016-08-24 18:10:43.871</Data><Data Name='ProcessGuid'>{0F2D76F0-E314-57BD-0000-0010B7E2A400}</Data><Data Name='ProcessId'>4728</Data><Data Name='Image'>C:\Windows\System32\rundll32.exe</Data><Data Name='ImageLoaded'>C:\Program Files (x86)\Intel\Intel(R) USB 3.0 eXtensible Host Controller Driver\uninstall\x64\Drv64.exe</Data><Data Name='Hashes'>SHA1=208C0787DFE8D4508134DB2F438CBE223AD7D4B2,MD5=DEBF43E44458EF0C7CC9D0A2BA4A5F57,SHA256=72ABC81CA40B0F1936FE28AF7975A5EB6BEC1456D35F73D9C56DB54AE0938FE2,IMPHASH=69B2DC9C85375DC85DA8CF1DDAAF614E</Data><Data Name='Signed'>true</Data><Data Name='Signature'>Intel Corporation</Data></EventData></Event> <br />
 Event Actions
-Type	                Field	             Value	            Actions <br /> 
+Type	                Field	             Value	                                                                               Actions 
 Selected	        host                 we8105desk	<br> 
-                        source               WinEventLog:Microsoft-Windows-Sysmon/Operational<br />
-                        sourcetype           xmlwineventlog	<br> 
-Event	                Channel              Microsoft-Windows-Sysmon/Operational<br /> 
-                        Computer             we8105desk.waynecorpinc.local<br /> 
-                        EventCode            7	<br />
+                        source               WinEventLog:Microsoft-Windows-Sysmon/Operational
+                        sourcetype           xmlwineventlog
+Event	                Channel              Microsoft-Windows-Sysmon/Operational
+                        Computer             we8105desk.waynecorpinc.local
+                        EventCode            7	
                         EventData_Xml        <Data Name='UtcTime'>2016-08-24 18:10:43.871</Data><Data Name='ProcessGuid'>{0F2D76F0-E314-57BD-0000-0010B7E2A400}</Data><Data Name='ProcessId'>4728</Data><Data Name='Image'>C:\Windows\System32\rundll32.exe</Data><Data 
                                              Name='ImageLoaded'>C:\Program Files (x86)\Intel\Intel(R) USB 3.0 eXtensible Host Controller Driver\uninstall\x64\Drv64.exe</Data><Data <br> 
                                              Name='Hashes'>SHA1=208C0787DFE8D4508134DB2F438CBE223AD7D4B2,MD5=DEBF43E44458EF0C7CC9D0A2BA4A5F57,SHA256=72ABC81CA40B0F1936FE28AF7975A5EB6BEC1456D35F73D9C56DB54AE0938FE2,IMPHASH=69B2DC9C85375DC85DA8CF1DDAAF614E</Data><Data                                                 Name='Signed'>true</Data><Data Name='Signature'>Intel Corporation</Data> <br /> 
 
-Time	              	_time               2016-08-24T18:10:46.000+00:00<br /> 
+Time	              	_time               2016-08-24T18:10:46.000+00:00 
 Default	<br> 
-                        index               botsv1	<br />
-                        linecount           1	<br /> 
-                        punct               <_='://../////'><><_='--'_='{----}'/><></><></><><<br /> 
-                        splunk_server       635bd95b7c6e<br />
+                        index               botsv1	
+                        linecount           1	
+                        punct               <_='://../////'><><_='--'_='{----}'/><></><></><><
+                        splunk_server       635bd95b7c6e
 
 ```
-Then i seached with the following query name "sourcetype=winregistry friendlyname", and analyzed the logs for the flag which is Z <br />
+Then i seached with the following query name "sourcetype=winregistry friendlyname", and analyzed the logs for the flag which is Z 
 ```
 > [!IMPORTANT]
 > Using the format of the Flag provided
