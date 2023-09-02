@@ -11,6 +11,7 @@ Flag format: flag{X:Y:Z:A}<br />
 
 
 # Solution
+
 To solve this challenge, I was provided with a link and granted temporary access to the webpage for Spluk Enterprise SIEM.<br />
 On the Splunk SIEM i Navigated to Serch and Reporting TAB to use my Search query. <br />
 ```
