@@ -13,23 +13,12 @@ Dirsearch, Wfuzz, od1n.<br />
 - I started the vulnerable website<br />
 ![Bean](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/6770c6e9-71c3-4459-a469-cd28b0a840ad)
 
-
-$ tshark -r backdoor.pcap -Y ftp -V | less<br />
-Frame 165: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)<br />
-    Encapsulation type: Ethernet (1)<br />
-    Arrival Time: Apr 26, 2022 18:07:41.245046000 EDT<br />
-    [Time shift for this packet: 0.000000000 seconds]<br />
-    Epoch Time: 1651010861.245046000 seconds<br />
-    [Time delta from previous captured frame: 0.005825000 seconds]<br />
-    [Time delta from previous displayed frame: 0.000000000 seconds]<br />
-    [Time since reference or first frame: 10.000115000 seconds]<br />
-    Frame Number: 165<br />
-    Frame Length: 86 bytes (688 bits)<br />
-    Capture Length: 86 bytes (688 bits)<br />
-    [Frame is marked: False]<br />
-    [Frame is ignored: False]<br />
-    [Protocols in frame: eth:ethertype:ip:tcp:ftp]<br />
-Ethernet II, Src: PcsCompu_66:e3:8b (08:00:27:66:e3:8b), Dst: IntelCor_c5:20:65 (4c:1d:96:c5:20:65)<br />
+$ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
+[13:14:29] Starting: <br />
+[13:15:27] 301 -  185B  - /files  ->  {http://SITEURL..com/files}/<br />
+[13:15:28] 200 -    9KB - /files/<br />
+[13:15:31] 200 -  404B  - /index.html<br />
+    <br />
 
 
 - You will find the Destination Mac address: 08:00:27:66:e3:8b
