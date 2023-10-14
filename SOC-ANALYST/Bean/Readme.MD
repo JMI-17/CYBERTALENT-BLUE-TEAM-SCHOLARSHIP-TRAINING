@@ -13,7 +13,7 @@ Dirsearch, Wfuzz, od1n.<br />
 - I started the vulnerable website<br />
 ![Bean](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/6770c6e9-71c3-4459-a469-cd28b0a840ad)
 
-$ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
+$ Dirsearch -u {THE SITE URL GOES HERE}<br />
 [13:14:29] Starting: <br />
 [13:15:27] 301 -  185B  - /files  ->  (http://SITEURL..com/files)/<br />
 [13:15:28] 200 -    9KB - /files/<br />
@@ -21,9 +21,8 @@ $ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
 ![Bean2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/48046dcc-5cd4-418a-ae47-cb35af344c5b)
 -After trying to look into several directories i decided to check the descrition line that tell us Come back home Mr. Bean.<br />
 -Navigate to the home directory of Mr. Bean on ur prowser by going to: (http://SITEURL..com/files/../home/)<br />
-- Dowload the flag.txt filethe la is present there
+- Dowload the flag.txt filethe la is present there<br />
 ![Bean-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/8b6b75be-aca4-4eee-96f4-401301ce2cf5)
-- You will find the Destination Mac address: 08:00:27:66:e3:8b
 > [!IMPORTANT]
 > Using the format of the Flag provided
 
