@@ -15,11 +15,13 @@ Dirsearch, Wfuzz, od1n.<br />
 
 $ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
 [13:14:29] Starting: <br />
-[13:15:27] 301 -  185B  - /files  ->  {http://SITEURL..com/files}/<br />
+[13:15:27] 301 -  185B  - /files  ->  (http://SITEURL..com/files)/<br />
 [13:15:28] 200 -    9KB - /files/<br />
 [13:15:31] 200 -  404B  - /index.html<br />
-    <br />
-
+![Bean2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/48046dcc-5cd4-418a-ae47-cb35af344c5b)
+-After trying to look into several directories i decided to check the descrition line that tell us Come back home Mr. Bean.<br />
+-Navigate to the home directory of Mr. Bean on ur prowser by going to: (http://SITEURL..com/files/../home/)<br />
+- Dowload the flag.txt filethe la is present there
 
 - You will find the Destination Mac address: 08:00:27:66:e3:8b
 > [!IMPORTANT]
@@ -28,5 +30,5 @@ $ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{Internal:192.168.1.58:CVE-2011-2523:08:00:27:66:e3:8b}</details>
+FLAG{Nginx_nOt_aLWays_sEcUre_bY_The_waY}</details>
 </li>
