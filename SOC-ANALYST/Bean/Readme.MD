@@ -10,7 +10,7 @@ Come back home Mr. Bean [Note: A Static Webpage was provided]
 Dirsearch, Wfuzz, od1n.<br />
 - i installed Dirsearch
 **$ apt-get install dirsearch<br />
-- I started the vulnerable website and 
+- I started the vulnerable website<br />
 https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/issues/1#issue-1943416464
 
 
