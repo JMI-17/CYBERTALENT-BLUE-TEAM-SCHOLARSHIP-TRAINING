@@ -22,7 +22,7 @@ $ DIRSEARCH -U {THE SITE URL GOES HERE}<br />
 -After trying to look into several directories i decided to check the descrition line that tell us Come back home Mr. Bean.<br />
 -Navigate to the home directory of Mr. Bean on ur prowser by going to: (http://SITEURL..com/files/../home/)<br />
 - Dowload the flag.txt filethe la is present there
-
+![Bean-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/8b6b75be-aca4-4eee-96f4-401301ce2cf5)
 - You will find the Destination Mac address: 08:00:27:66:e3:8b
 > [!IMPORTANT]
 > Using the format of the Flag provided
