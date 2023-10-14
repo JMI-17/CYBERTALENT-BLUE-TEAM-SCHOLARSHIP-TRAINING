@@ -1,5 +1,5 @@
 # Description
-Come back home Mr. Bean [Note: A Static Webpage was provided]
+Come back home Mr. Bean [Note: A Static Webpage was provided]<br />
 
 # Tools
 - kali
@@ -8,14 +8,14 @@ Come back home Mr. Bean [Note: A Static Webpage was provided]
 # Solution
 - I did a quick search for simple tools that can enable me analyze a stattic webpage i got:
 Dirsearch, Wfuzz, od1n.<br />
-- i installed Dirsearch
+- i installed Dirsearch<br />
 **$ apt-get install dirsearch<br />
 - I started the vulnerable website<br />
 ![Bean](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/6770c6e9-71c3-4459-a469-cd28b0a840ad)
 
 $ Dirsearch -u {THE SITE URL GOES HERE}<br />
-[13:14:29] Starting: <br />
-[13:15:27] 301 -  185B  - /files  ->  (http://SITEURL..com/files)/<br />
+[13:14:29] Starting:<br />
+[13:15:27] 301 -  185B  - /files  -> (http://SITEURL..com/files)/<br />
 [13:15:28] 200 -    9KB - /files/<br />
 [13:15:31] 200 -  404B  - /index.html<br />
 ![Bean2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/48046dcc-5cd4-418a-ae47-cb35af344c5b)
