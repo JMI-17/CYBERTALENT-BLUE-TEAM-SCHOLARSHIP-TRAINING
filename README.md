@@ -38,7 +38,7 @@ I highly value feedback, and this repository welcomes constructive feedback from
 |     [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit         Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD       |        Completed   |
 |    [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
-|   [Bean]   |    Easy    |                                     LFI, Web                                     | Completed |
+|   [Bean] (SOC-ANALYST/Bean)  |    Easy    |                                     LFI, Web                                     | Completed |
 |    55H-Access    |    Easy    |                              Splunk, Forensic, SSH                             |  Completed|
 |     Creepy-DNS    |   Easy   |                               DNS, DNS Zone Transfer, Google                              |      Completed     |
 |    FourOFour    |   Easy   |                                   Splunk,  Log, IIS Server,Microsoft                                   |      Completed     |
