@@ -1,38 +1,23 @@
 # Description
+Come back home Mr. Bean [Note: A Static Webpage was provided]
 
+#Tools
+- kali
+- dirsearch
 
 # Solution
-- First I used an online pcap analysis tool called PacketTotal but this can be used on the terminal with capinfos to see informations of the file
+- I did a quick search for simple tools that can enable me analyze a stattic webpage i got:
+Dirsearch, Wfuzz, od1n.
+- i installed Dirsearch
+**$ apt-get install dirsearch
 
-**$ capinfos /Downloads/backdoor.pcap** <br />
-File name:           backdoor.pcap <br />
-File type:           Wireshark/tcpdump/... - pcap <br />
-File encapsulation:  Ethernet
-File timestamp precision:  microseconds (6) <br />
-Packet size limit:   file hdr: 96 bytes <br />
-Packet size limit:   inferred: 96 bytes <br />
-Number of packets:   739 <br />
-File size:           71 kB <br />
-Data size:           134 kB <br />
-Capture duration:    72.785513 seconds <br />
-First packet time:   2022-04-26 18:07:31.244931 <br />
-Last packet time:    2022-04-26 18:08:44.030444 <br />
-Data byte rate:      1,850 bytes/s <br />
-Data bit rate:       14 kbps <br />
-Average packet size: 182.21 bytes <br />
-Average packet rate: 10 packets/s <br />
-SHA256:              91a780295b31dac44d5357bf63bfe2cfddb990f447fd60a9048eb16ec5c7ec15 <br />
-RIPEMD160:           01a55a5fe78f4db4ae13d90b031b6d5e5c8845fd <br />
-SHA1:                6a8a80c755676757b2a77b01f0282c46b4f87f9d <br />
-Strict time order:   True <br />
-Number of interfaces in file: 1 <br />
-Interface #0 info: <br />
-                     Encapsulation = Ethernet (1 - ether) <br />
-                     Capture length = 96 <br />
-                     Time precision = microseconds (6) <br />
-                     Time ticks per second = 1000000 <br />
-                     Number of stat entries = 0 <br />
-                     Number of packets = 739 br />
+
+
+
+
+
+
+- I started the vulnerable website and 
 
 
 - After getting basic info about the packet, i used tshark to search if this pcap have a http, ssh  and FTP, eventually FTP gave the following out put.<br />
