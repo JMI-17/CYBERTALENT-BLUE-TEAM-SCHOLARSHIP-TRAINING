@@ -11,7 +11,7 @@ Dirsearch, Wfuzz, od1n.<br />
 - i installed Dirsearch
 **$ apt-get install dirsearch<br />
 - I started the vulnerable website<br />
-https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/issues/1#issue-1943416464
+![Bean](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/6770c6e9-71c3-4459-a469-cd28b0a840ad)
 
 
 $ tshark -r backdoor.pcap -Y ftp -V | less<br />
