@@ -74,6 +74,6 @@ I highly value feedback, and this repository welcomes constructive feedback from
 |   [W4nna Fl4g](SOC-ANALYST/USB-Case/Readme.MD)             |    Easy   |  Splunk, USB Device                                      | Completed |
 |   [Masqur4de](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
 |   [Scanner](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
-|   New Account](SOC-ANALYST/WormSeen/Readme.MD)             |   Easy |  Exe Analysis, Forensic, Python                          | Completed |
+|   [New Account](SOC-ANALYST/WormSeen/Readme.MD)             |   Easy |  Exe Analysis, Forensic, Python                          | Completed |
 |   [Active Attacks](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
 |   [Brut3 Forc3](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
