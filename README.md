@@ -31,10 +31,10 @@ I highly value feedback, and this repository welcomes constructive feedback from
 
 ## Certified SOC ANALYST
 
-| Challenges                                               | Difficulty |       Tags                                         | Completed |
+| Challenges                                               | Difficulty |            Tags                                         | Completed |
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
 |               |            |                                                                                                    | Completed |
-|   [Competition](SOC-ANALYST/Competition/Readme.MD)       |   Basic   |  CTF, Hacking, Google                                    | Completed |
+|   [Competition](SOC-ANALYST/Competition/Readme.MD)       |   Basic   |  Hacking Group, Google                                   | Completed |
 |   [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)         |   Basic   |  EternalBlue, Searchsploit                               | Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)                     |   Medium  |  Tshark, Wireshark, vsFTPD                               | Completed |
 |   [Bean Detector](SOC-ANALYST/Beans-Detector/Readme.MD)  |   Medium  |  Log analysis, Forensic, Web                             | Completed |
