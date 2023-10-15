@@ -1,25 +1,25 @@
 # Category: 
 - **Digital** **Forensics**
 # Description
-We observed a huge traffic towards our SSH Server<br />
-X: How many source IPs attempting to connect  → Number<br />
-Y: The Source IP with the most connections → x.x.x.x<br />
-Z: The Source IP with the most connections country → xxxxxxx<br />
-W: The Firewall action taken from the security control → xxxxxxx<br />
-Flag format: flag{X:Y:Z:W}<br />
-Note: our company uses Fortinet FortiGate firewall.<br />
+- Help us!Here is a copy of a folder of ours, we need to scan this folder with this Yara rule and check if we have any matches!,scan this folder with the rule and provide us with the matched filename.
+Flag format: FLAG{filename}.<br />
 
 # Tools
-- Splunk Enterprise
-- VirusTotal
+- kali
+- Yara Script file
 
 # Solution
-- <br />
+- A link was provided to the archive file. After downloading the archive file, we found a Yara rule file (rule.yara) <br />
+![YM-1](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/964874db-df06-4d92-8e5f-f4bed70d64c4)
+- I used the yara rule to serch for IOCs in the folder, the following CMD:<br />
+$ yara -f rule.yara ./[folder name]<br />
+- output<br />
+MySuperCoolRule Folder/12776<br />
+
 > [!IMPORTANT]
 > Using the format of the Flag provided
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{19:91.224.160.108:Finland:Blocked}</details>
+flag{12776}</details>
 </li>
-
