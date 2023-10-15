@@ -49,7 +49,7 @@ $ john zip_file_name.txt <br />
 $ python2 vol.py -f memdump.mem --profile=Win7SP1x64 iehistory<br />
 - from the output, this link was interesting:<br />
 Record length: 0x480<br />
-Location: Visited: admin@https://www.google.com/search?hl=arAE&source=hp&q=**aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vZWd5Y29uZG9yL2VlYTQyZWZkY2M4YWZmZjZlY2E3ODllZmFkMDkyNGY0**&btnG=%D8%A8%D8%AD%D8%AB+Google%E2%80%8F&iflsig=AINFCbYAAAAAYNklBnHZ11BsWPswjKaNT4sXGZcL73d&gbv=1<br />
+Location: Visited: admin@https://www.google.com/search?hl=arAE&source=hp&q=aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vZWd5Y29uZG9yL2VlYTQyZWZkY2M4YWZmZjZlY2E3ODllZmFkMDkyNGY0&btnG=%D8%A8%D8%AD%D8%AB+Google%E2%80%8F&iflsig=AINFCbYAAAAAYNklBnHZ11BsWPswjKaNT4sXGZcL73d&gbv=1  <br />
 Last modified: 2021-06-28 00:25:40 UTC+0000<br />
 - So, we’ll try to decode it using base64 with the command:<br />
 $ echo "aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vZWd5Y29uZG9yL2VlYTQyZWZkY2M4YWZmZjZlY2E3ODllZmFkMDkyNGY0" | base64 -d <br />
