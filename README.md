@@ -31,29 +31,49 @@ I highly value feedback, and this repository welcomes constructive feedback from
 
 ## Certified SOC ANALYST
 
-| Challenges | Difficulty |                                                Tags                                                | Completed |
+| Challenges                                               | Difficulty |       Tags                                         | Completed |
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
-|               |            |                                                                                                    |           |
-|   [Competition](SOC-ANALYST/Competition/Readme.MD)    |    Basic    |                            CTF, Hacking, Google                        Completed |
-|   [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit         Completed |
-|   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD       |        Completed   |
-|   [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
-|   [Bean](SOC-ANALYST/Bean)  |    Easy    |                                     LFI, Web                                     | Completed |
-|   [55H-Access]()    |    Easy    |                              Splunk, Forensic, SSH                             |  Completed|
-|   [Creepy-DNS]()    |   Easy   |                               DNS, DNS Zone Transfer, Google                              |      Completed     |
-|   [FourOFour]()    |   Easy   |                                   Splunk,  Log, IIS Server,Microsoft                                   |      Completed     |
-|   [MEGO](SOC-ANALYST/MEGO/Readme.MD)     |    Medium    |                                       Forensic, Volatility, Disc                                      | Completed |
-|   [Pass-Reset](SOC-ANALYST/Pass-Reset/Readme.MD)  |   Easy   |                                     File Misconfiguration, Web         |       Completed    |
-|   [Phisher]()    |    Medium    |                                     Foresic, Disc, Volatility                                     |        Completed   |
-|   [Remote Hacker]()     |   Medium   |                           Forensic, Logs Analysis, Windows logs                          |   Completed        |
-|   [SIEM Port]()   |    Basic    |                                        SIEM, TLS                                       | Completed |
-|   [Smart-Role]()    |   Basic   |                                 Soc, CTI, Analyst                                 |         Completed  |
-|   [USB-Case]()    |    Easy    |                                   Splunk, USB Device                                   | Completed          |
-|   [WormSeen]() |   Medium   |                                     Exe Analysis, Forensic, Python                                    |       Completed    |
+|               |            |                                                                                                    | Completed |
+|   [Competition](SOC-ANALYST/Competition/Readme.MD)       |   Basic   |  CTF, Hacking, Google                                    | Completed |
+|   [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)         |   Basic   |  EternalBlue, Searchsploit                               | Completed |
+|   [Backdoor](./SOC-ANALYST/Backdoor)                     |   Medium  |  Tshark, Wireshark, vsFTPD                               | Completed |
+|   [Bean Detector](SOC-ANALYST/Beans-Detector/Readme.MD)  |   Medium  |  Log analysis, Forensic, Web                             | Completed |
+|   [Bean](SOC-ANALYST/Bean)                               |   Easy    |  LFI, Web                                                | Completed |
+|   [55H-Access](SOC-ANALYST/55H-Access/Readme.MD)         |   Easy    |  Splunk, Forensic, SSH                                   | Completed |
+|   [Creepy-DNS](SOC-ANALYST/Creepy DNS/Readme.md)         |   Easy    |  DNS, DNS Zone Transfer, Google                          | Completed |
+|   [FourOFour](SOC-ANALYST/FourOFour/Readme.MD)           |   Easy    |  Splunk,  Log, IIS Server,Microsoft                      | Completed |
+|   [MEGO](SOC-ANALYST/MEGO/Readme.MD)                     |   Medium  |  Forensic, Volatility, Disc                              | Completed |
+|   [Pass-Reset](SOC-ANALYST/Pass-Reset/Readme.MD)         |   Easy    |  File Misconfiguration, Web                              | Completed |
+|   [Phisher](SOC-ANALYST/Phisher/Readme.MD)               |   Medium  |  Foresic, Disc, Volatility                               | Completed |
+|   [Remote Hacker](SOC-ANALYST/Remote-hacker/Readme.MD)   |   Medium  |  Forensic, Logs Analysis, Windows logs                   | Completed |
+|   [SIEM Port](SOC-ANALYST/SIEM-Port/Readme.MD)           |   Basic   |  SIEM, TLS                                               | Completed |
+|   [Smart-Role](SOC-ANALYST/Smart-Role/Readme.MD)         |   Basic   |  Soc, CTI, Analyst                                       | Completed |
+|   [USB-Case](SOC-ANALYST/USB-Case/Readme.MD)             |    Easy   |  Splunk, USB Device                                      | Completed |
+|   [WormSeen](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic                                  | Completed |
 
 
 
 ## Certified Threat Hunter
-
-
-
+| Challenges                                               | Difficulty |       Tags                                         | Completed |
+|:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
+|               |            |                                                                                                    | Completed |
+|   [APT](SOC-ANALYST/Competition/Readme.MD)               |   Basic   |  CTF, Hacking, Google                                    | Completed |
+|   [Kill Chain](SOC-ANALYST/CVE-Number/Readme.MD)         |   Basic   |  EternalBlue, Searchsploit                               | Completed |
+|   [CTI Analyst](./SOC-ANALYST/Backdoor)                     |   Medium  |  Tshark, Wireshark, vsFTPD                               | Completed |
+|   [YARA Magic](SOC-ANALYST/Beans-Detector/Readme.MD)  |   Medium  |  Log analysis, Forensic, Web                             | Completed |
+|   [Within COde](SOC-ANALYST/Bean)                               |   Easy    |  LFI, Web                                                | Completed |
+|   [Falcon Hunt](SOC-ANALYST/55H-Access/Readme.MD)         |   Easy    |  Splunk, Forensic, SSH                                   | Completed |
+|   [Encoded](SOC-ANALYST/Creepy DNS/Readme.md)         |   Easy    |  DNS, DNS Zone Transfer, Google                          | Completed |
+|   [Refresher](SOC-ANALYST/FourOFour/Readme.MD)           |   Easy    |  Splunk,  Log, IIS Server,Microsoft                      | Completed |
+|   [Exodus](SOC-ANALYST/MEGO/Readme.MD)                     |   Medium  |  Forensic, Volatility, Disc                              | Completed |
+|   [Misseyt](SOC-ANALYST/Pass-Reset/Readme.MD)         |   Easy    |  File Misconfiguration, Web                              | Completed |
+|   [Zig-Zag](SOC-ANALYST/Phisher/Readme.MD)               |   Medium  |  Foresic, Disc, Volatility                               | Completed |
+|   [Baseline](SOC-ANALYST/Remote-hacker/Readme.MD)   |   Medium  |  Forensic, Logs Analysis, Windows logs                   | Completed |
+|   [Arson](SOC-ANALYST/SIEM-Port/Readme.MD)           |   Basic   |  SIEM, TLS                                               | Completed |
+|   [Process](SOC-ANALYST/Smart-Role/Readme.MD)         |   Basic   |  Soc, CTI, Analyst                                       | Completed |
+|   [W4nna Fl4g](SOC-ANALYST/USB-Case/Readme.MD)             |    Easy   |  Splunk, USB Device                                      | Completed |
+|   [Masqur4de](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
+|   [Scanner](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
+|   New Account](SOC-ANALYST/WormSeen/Readme.MD)             |   Easy |  Exe Analysis, Forensic, Python                          | Completed |
+|   [Active Attacks](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
+|   [Brut3 Forc3](SOC-ANALYST/WormSeen/Readme.MD)             |   Medium  |  Exe Analysis, Forensic, Python                          | Completed |
