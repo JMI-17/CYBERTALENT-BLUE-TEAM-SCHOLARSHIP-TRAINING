@@ -15,7 +15,7 @@ Flag format: flag{name}<br />
 
 ![CTI-2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/b7bf0c61-87da-436a-9926-72aabfaaad53)
 
-![CTI-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/001e67a1-afe9-4346-b87e-e83557a4ccf3)
+![CTI-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/cc6e2b4e-2dfd-4acc-bc96-7ca42835b2a4)
 > [!IMPORTANT]
 > Using the format of the Flag provided
 <li>
