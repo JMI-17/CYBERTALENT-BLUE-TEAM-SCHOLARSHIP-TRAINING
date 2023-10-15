@@ -25,7 +25,8 @@ Y = 40.80.148.42<br />
 - Z: The attacker source country → xxx
 - We use any IP address lookup tool to map the IP address to geolocation (ex: VirusTotal ) and the result is USA
 - Z: USA<br />
-![404-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/55368f63-0914-420f-9b8e-1de1233c48d9)
+![404-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/52d6e628-72b6-4f21-85f9-dcfa8ed71496)
+
 we collect all the answers and have the flag as below:<br />
 
 > [!IMPORTANT]
