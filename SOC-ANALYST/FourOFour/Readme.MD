@@ -9,7 +9,7 @@ Flag format: flag{X:Y:Z}<br />
 
 # Tools
 - Splunk Enterprise
-- dirsearch
+- Virus Total
 
 # Solution
 - From the description the attack targeted our IIS server and the first question (X: The highest number of non existent URLs request sent by the attacker → Number) tell us that we should filter the search output to only "not found - code 404 messages". So after opening splunk, we start our search with a simple query for instances with error 404 with a time range of "all time" checking the ip addresses associated with the responses, we have 2 private ips and a public ip (40.80.148.42) as seen below: **sc_status="404"**<br />
