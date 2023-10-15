@@ -36,12 +36,12 @@ Default	<br>
                         index               botsv1	
                         linecount           1	
                         punct               <_='://../////'><><_='--'_='{----}'/><></><></><><
-                        splunk_server       635bd95b7c6e
+                        splunk_server       635bd95b7c6e */
 
 - Then i seached with the following query name "sourcetype=winregistry friendlyname", and analyzed the logs for the flag which is Z 
 > [!IMPORTANT]
 > Using the format of the Flag provided<br />
-*/
+
 
 <li>
 	<details>
