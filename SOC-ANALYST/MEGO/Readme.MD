@@ -26,16 +26,16 @@ $ sudo apt install python3<br />
 $ sudo apt install python3-pip python-setuptools build-essential<br />
 5. Navigate into the volatility directory and hit the below cmd to install volatility:<br />
 $ sudo python3 setup.py install<br />
-- To confirm your installation using cmd:
+- To confirm your installation using cmd:<br />
 $ python3 vol.py<br />
-- I started by trying to determine image info by using the volatility tool:
+- I started by trying to determine image info by using the volatility tool:<br />
 $ python3 vol.py -f ./dir/path_to_mem_dump_file windows.info<br />
 
 -  From the result we notice that the image belongs to: NTBuildLab 7601.17514.amd64fre.win7sp1_rtm.      so... windows7sp1
-- Now, we know which profile to use: (win7sp1) and we know which file to scan for **(the "flag.txt.zip" file)**. So, we use it with the command:
+- Now, we know which profile to use: (win7sp1) and we know which file to scan for **(the "flag.txt.zip" file)**. So, we use it with the command:<br />
 $ python3 vol.py -f /path_to_mem_dump_file windows.filescan | grep -i "flag"<br />
 
-I got result of all the files that matches "falg", i choose the one that located in the path (C:\Users\admin\Downloads\flag.txt.zip) to dump it by specifying its physical address in the command:<br />
+- I got result of all the files that matches "falg", i choose the one that located in the path (C:\Users\admin\Downloads\flag.txt.zip) to dump it by specifying its physical address in the command:<br />
 $ python3 vol.py -f ./path_to_mem_dump_file windows.dumpfiles --physaddr 0x50dc4370<br />
 I got a file.flag.txt.zip.dat. To get a .zip file we rename the file to enable us open it, But its passworded. we can use any password cracking tools like (fcrackzip , John the Ripper). To use john the Ripper tool, we need to have the hash of the file and in order to do so, we will convert our zip file into a txt file using the command:<br />
 $ zip2john zip_file_name.zip > zip_file_name.txt <br />
@@ -56,7 +56,7 @@ $ echo "aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vZWd5Y29uZG9yL2VlYTQyZWZkY2M4YWZmZjZlY2E3
 And the result was a link for a repository of a wordlist:https://gist.github.com/egycondor/eea42efdcc8afff6eca789efad0924f4<br />
 I downloaded the new wordlist from that link and used it with john the ripper to crack the .txt file. When finished, we can see the cracked hash password among the result. However, to make the result (password) clearer we can use the command:<br />
 $ john zip_file_name.txt --show<br />
-- The password was: **g=ax6w{JPtHL./FdE&8ASVbu$rcmG?zZ**, and after using to open the .zip file, I got the flag :)
+- The password was: **g=ax6w{JPtHL./FdE&8ASVbu$rcmG?zZ**, and after using to open the .zip file, I got the flag :)<br />
 > [!IMPORTANT]
 > Using the format of the Flag provided
 
