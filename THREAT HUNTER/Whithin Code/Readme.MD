@@ -19,7 +19,9 @@ To create a role that matches the word “Flag” in binary files, we need to ma
 - I also converted the base64 result to Hex using any tool like magictool website to use it in our Yara rule, and the Result is: 526d78685a773d3d
 - Note: using either of the Base64 encoding or the Hex form would be enough to match for the word “Flag”, but i used both to avoid trying again
 - Now that we have the info that need to match for, we can create our Yara rule. We wrote a simple rule to match For both the encoding and the Hex form, and the rule is:
+
 ![WC-1](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/9b5fdeaf-a0f2-41e3-90ef-a5ff8f76eee9)
+
 - Finally, before running the Yara rule, we need to know which option to use with it, And since we do not want to match for the file that contains the defined string in our rule, we will not choose the -f
 option as we usually do EG:
 $ yara -f rule.yara wihin\code
