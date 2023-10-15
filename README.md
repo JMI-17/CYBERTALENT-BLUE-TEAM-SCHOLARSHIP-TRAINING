@@ -54,14 +54,14 @@ I highly value feedback, and this repository welcomes constructive feedback from
 
 
 ## Certified Threat Hunter
-| Challenges                                               | Difficulty |       Tags                                         | Completed |
-|:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
-|               |            |                                                                                                    | Completed |
-|   [APT](SOC-ANALYST/Competition/Readme.MD)               |   Basic   |  CTF, Hacking, Google                                    | Completed |
-|   [Kill Chain](SOC-ANALYST/CVE-Number/Readme.MD)         |   Basic   |  EternalBlue, Searchsploit                               | Completed |
-|   [CTI Analyst](./SOC-ANALYST/Backdoor)                     |   Medium  |  Tshark, Wireshark, vsFTPD                               | Completed |
-|   [YARA Magic](SOC-ANALYST/Beans-Detector/Readme.MD)  |   Medium  |  Log analysis, Forensic, Web                             | Completed |
-|   [Within COde](SOC-ANALYST/Bean)                               |   Easy    |  LFI, Web                                                | Completed |
+| Challenges                                               | Difficulty |       Tags                                              | Completed |
+|:--------------------------------------------------------:|:----------:|:-------------------------------------------------------:|:---------:|
+|                                                          |            |                                                         | Completed |
+|   [APT](THREAT HUNTER/APT/Readme.MD)                     |   easy     |  APT, Threat Hunting, Hacking                           | Completed |
+|   [Kill Chain](THREAT HUNTER/Kill Chain/Readme.MD)       |   Basic    |  EternalBlue, Searchsploit                              | Completed |
+|   [CTI Analyst](THREAT HUNTER/CTI Analyst/Readme.MD)     |   easy     |  MISP Threat Intelligence, Malware, Kasperk             | Completed |
+|   [YARA Magic](SOC-ANALYST/Beans-Detector/Readme.MD)     |   easy     |  IoCs, YARA, & Sigma Rules                              | Completed |
+|   [Within COde](THREAT HUNTER/Whithin Coden)             |   Medium   |  IoCs, YARA, & Sigma Rules                              | Completed |
 |   [Falcon Hunt](SOC-ANALYST/55H-Access/Readme.MD)         |   Easy    |  Splunk, Forensic, SSH                                   | Completed |
 |   [Encoded](SOC-ANALYST/Creepy DNS/Readme.md)         |   Easy    |  DNS, DNS Zone Transfer, Google                          | Completed |
 |   [Refresher](SOC-ANALYST/FourOFour/Readme.MD)           |   Easy    |  Splunk,  Log, IIS Server,Microsoft                      | Completed |
