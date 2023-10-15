@@ -8,8 +8,6 @@ Z: Name of the USB device <br />
 Flag format: flag{X:Y:Z:A}<br />
 
 
-
-
 # Solution
 
 To solve this challenge, I was provided with a link and granted temporary access to the webpage for Spluk Enterprise SIEM.<br />
@@ -40,7 +38,8 @@ Default	<br>
 
 - Then i seached with the following query name "sourcetype=winregistry friendlyname", and analyzed the logs for the flag which is Z 
 > [!IMPORTANT]
-> Using the format of the Flag provided
+> Using the format of the Flag provided<br />
+
 
 <li>
 	<details>
