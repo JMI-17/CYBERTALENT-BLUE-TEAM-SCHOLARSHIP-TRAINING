@@ -59,5 +59,5 @@ We will find sethc.exe, Win32calc.exe and then identify which one of these appli
 <li>
 	<details>
 		<summary>Flag</summary>
-Tryharder bro.. If you don't understand all of these step. ping me on Discord: blomann#3219. for some explanation. Thanks...</details>
+Tryharder bro.. If you don't understand all of these step. ping me on Discord:  for some explanation. Thanks...</details>
 </li>
