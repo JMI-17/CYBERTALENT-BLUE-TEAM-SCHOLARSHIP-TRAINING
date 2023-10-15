@@ -12,7 +12,7 @@ Mego is hiding something on his desktop and he always kept the secrets on the cl
 # Solution
 - I was provided with a Link to download a file named: memdump123456789.mem.tar
 - First, I tried to check the strings inside the mem dump file , and filtering the output to match only the word "flag" since that is what we are looking for.
-- I tried a different CMD commands to get information from the file, for simplicity i will be showing just one with the result of useful info:
+- I tried a different CMD commands to get information from the file, for simplicity i will be showing just one with the result of useful info:<br />
 $ cat file_name | strings | grep "flag"<br />
 C:\Users\admin\Downloads\flag.txt.zip<br />
 
