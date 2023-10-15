@@ -1,3 +1,6 @@
+# Category
+**Digital Forensics**
+
 # Description
 You have received the email below,  Please examine the email and answer the below questions
 
@@ -7,6 +10,13 @@ Y: The date that user received the email <br />
 Z: The domain name of the phishing link that was sent in the email body<br />
 W: Do you think that the email is safe or malicious ?<br />
 Flag format: flag{X:Y:Z:w}<br />
+
+# Tools
+- **Virustotal**
+- **MXTool Box**
+- **Fraczip**
+- **UNZip**
+- **GroupDocs MSG Viewer**
 
 # Solution
 - After Dowloading the file from the link provided i tried to unzip it which i discovered was passworded, so i carried out a bruteforce Attack on the file using a tool called fackzip to reveal the password<br />
@@ -96,12 +106,6 @@ Content-Transfer-Encoding: base64 <br />
 > Using the format of the Flag provided: flag{X:Y:Z:w}<br />
 
 
-# Tools
-- **Virustotal**
-- **MXTool Box**
-- **Fraczip**
-- **UNZip**
-- **GroupDocs MSG Viewer**
 
 <li>
 	<details>
