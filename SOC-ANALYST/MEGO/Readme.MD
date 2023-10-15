@@ -31,7 +31,7 @@ $ python3 vol.py<br />
 - I started by trying to determine image info by using the volatility tool:<br />
 $ python3 vol.py -f ./dir/path_to_mem_dump_file windows.info<br />
 
--  From the result we notice that the image belongs to: NTBuildLab 7601.17514.amd64fre.win7sp1_rtm.      so... windows7sp1
+-  From the result we notice that the image belongs to: NTBuildLab 7601.17514.amd64fre.win7sp1_rtm.      so... windows7sp1<br />
 - Now, we know which profile to use: (win7sp1) and we know which file to scan for **(the "flag.txt.zip" file)**. So, we use it with the command:<br />
 $ python3 vol.py -f /path_to_mem_dump_file windows.filescan | grep -i "flag"<br />
 
@@ -40,9 +40,9 @@ $ python3 vol.py -f ./path_to_mem_dump_file windows.dumpfiles --physaddr 0x50dc4
 I got a file.flag.txt.zip.dat. To get a .zip file we rename the file to enable us open it, But its passworded. we can use any password cracking tools like (fcrackzip , John the Ripper). To use john the Ripper tool, we need to have the hash of the file and in order to do so, we will convert our zip file into a txt file using the command:<br />
 $ zip2john zip_file_name.zip > zip_file_name.txt <br />
 now, we confirm that we have a hash for the file by using the command:<br />
-# cat zip_file_name.txt<br />
+$ cat zip_file_name.txt<br />
 I got a hash!After that, it's time to crack that hash by the tool "John the Ripper or Cyber Chef" with the command:<br />
-# john zip_file_name.txt <br />
+$ john zip_file_name.txt <br />
 
 - **NOTE:** The default wordlist of john the ripper did not crack the password, Based on the challenge intro (the user always keeps his secrets on the cloud), we try to check the browser history. However, volatility3 does not support the needed plugin (iehistory) which only works on volatility2.
 - Another Linux machine was setup which has volatility2 to check the browser history) the command is:
