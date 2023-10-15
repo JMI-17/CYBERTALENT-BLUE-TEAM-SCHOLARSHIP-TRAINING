@@ -12,15 +12,21 @@ Flag format: flag{X:Y:Z}<br />
 - dirsearch
 
 # Solution
-- A Link to a virtual machine hosting a splunk SIEM was provided and on getting to the interface i was provided with a serch bar to begining my investigation into the malicious activity <br />
-- I searched for ssh service and made use of [All time] as our time range, we get the first answer from the src_ip field = **19**.
-
-- I was able to get the ip address with the most connections from the same field as the firewall action is gotten by checking the action field which is blocked.
-
-- To get the country of the ip with the most connections, we use an VirusTotal service and we get finland as our answer.
-$ Dirsearch -u {THE SITE URL GOES HERE}<br />
-going to: (http://SITEURL..com/files/../home/)<br />
-- Dowload the flag.txt filethe la is present there<br />
+- From the description the attack targeted our IIS server and the first question (X: The highest number of non existent URLs request sent by the attacker → Number) tell us that we should filter the search output to only "not found - code 404 messages". So after opening splunk, we start our search with a simple query for instances with error 404 with a time range of "all time" checking the ip addresses associated with the responses, we have 2 private ips and a public ip (40.80.148.42) as seen below: **sc_status="404"**<br />
+<img width="1628" alt="404-1" src="https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/25f7a926-42c8-4def-ac7e-8b839317656f">
+- This gave us 2119 events. However, we should keep filtering based on the rest of information provided to us. We check the c_ip field, and find that it has 2 values (public IP and Private IP)
+Of course, we will select the public IP address to add to the search and we will copy it as an answer to:
+Y: The Source IP → x.x.x.x<br />
+Y = 40.80.148.42<br />
+- our search query now is: sc_status="404" c_ip="40.80.148.42", we only add on more filter to it from the field sourcetype which has one value "iis"   and our search query now is: **sc_status="404" c_ip="40.80.148.42" sourcetype=iis** which is enough to get all the rest of the answers
+- X: The highest number of non existent URLs request sent by the attacker → Number
+- X: 2009
+<img width="1628" alt="404-2" src="https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/7c5888a1-3edb-4b47-bfc8-a319de6f2e4a">
+- Z: The attacker source country → xxx
+- We use any IP address lookup tool to map the IP address to geolocation (ex: VirusTotal ) and the result is USA
+- Z: USA<br />
+![404-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/55368f63-0914-420f-9b8e-1de1233c48d9)
+we collect all the answers and have the flag as below:<br />
 
 > [!IMPORTANT]
 > Using the format of the Flag provided
@@ -28,5 +34,5 @@ going to: (http://SITEURL..com/files/../home/)<br />
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{19:91.224.160.108:Finland:Blocked}</details>
+flag{2009:40.80.148.42:USA}</details>
 </li>
