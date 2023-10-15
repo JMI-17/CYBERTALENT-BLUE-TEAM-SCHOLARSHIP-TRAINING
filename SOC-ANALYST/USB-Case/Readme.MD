@@ -47,5 +47,5 @@ Then i seached with the following query name "sourcetype=winregistry friendlynam
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{2016-08-24:10:42:17:we8105desk:MIRANDA_PRI}</details>
+flag{2016-08-24:10:42:17:we8105desk:MIRANDA_PRI} </details>
 </li>
