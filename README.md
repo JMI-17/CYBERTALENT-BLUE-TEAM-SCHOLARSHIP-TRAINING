@@ -34,22 +34,22 @@ I highly value feedback, and this repository welcomes constructive feedback from
 | Challenges | Difficulty |                                                Tags                                                | Completed |
 |:-------------:|:----------:|:--------------------------------------------------------------------------------------------------:|:---------:|
 |               |            |                                                                                                    |           |
-|      [Competition](SOC-ANALYST/Competition/Readme.MD)    |    Basic    |                            CTF, Hacking, Google                        Completed |
-|     [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit         Completed |
+|   [Competition](SOC-ANALYST/Competition/Readme.MD)    |    Basic    |                            CTF, Hacking, Google                        Completed |
+|   [CVE-Number](SOC-ANALYST/CVE-Number/Readme.MD)      |    Basic    |                                       EternalBlue, Searchsploit         Completed |
 |   [Backdoor](./SOC-ANALYST/Backdoor)   |   Medium   |                                            Tshark, Wireshark, vsFTPD       |        Completed   |
-|    [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
+|   [Bean Detector]()    |    Medium    |                                 Log analysis, Forensic, Web                               | Completed |
 |   [Bean](SOC-ANALYST/Bean)  |    Easy    |                                     LFI, Web                                     | Completed |
-|    55H-Access    |    Easy    |                              Splunk, Forensic, SSH                             |  Completed|
-|     Creepy-DNS    |   Easy   |                               DNS, DNS Zone Transfer, Google                              |      Completed     |
-|    FourOFour    |   Easy   |                                   Splunk,  Log, IIS Server,Microsoft                                   |      Completed     |
-|     MEGO     |    Medium    |                                       Forensic, Volatility, Disc                                      | Completed |
+|   [55H-Access]()    |    Easy    |                              Splunk, Forensic, SSH                             |  Completed|
+|   [Creepy-DNS]()    |   Easy   |                               DNS, DNS Zone Transfer, Google                              |      Completed     |
+|   [FourOFour]()    |   Easy   |                                   Splunk,  Log, IIS Server,Microsoft                                   |      Completed     |
+|   [MEGO](SOC-ANALYST/MEGO/Readme.MD)     |    Medium    |                                       Forensic, Volatility, Disc                                      | Completed |
 |   [Pass-Reset](SOC-ANALYST/Pass-Reset/Readme.MD)  |   Easy   |                                     File Misconfiguration, Web         |       Completed    |
-|    Phisher    |    Medium    |                                     Foresic, Disc, Volatility                                     |        Completed   |
-|      [Remote Hacker]()     |   Medium   |                           Forensic, Logs Analysis, Windows logs                          |   Completed        |
+|   [Phisher]()    |    Medium    |                                     Foresic, Disc, Volatility                                     |        Completed   |
+|   [Remote Hacker]()     |   Medium   |                           Forensic, Logs Analysis, Windows logs                          |   Completed        |
 |   [SIEM Port]()   |    Basic    |                                        SIEM, TLS                                       | Completed |
-|     [Smart-Role]()    |   Basic   |                                 Soc, CTI, Analyst                                 |         Completed  |
-|     USB-Case    |    Easy    |                                   Splunk, USB Device                                   | Completed          |
-|  WormSeen |   Medium   |                                     Exe Analysis, Forensic, Python                                    |       Completed    |
+|   [Smart-Role]()    |   Basic   |                                 Soc, CTI, Analyst                                 |         Completed  |
+|   [USB-Case]()    |    Easy    |                                   Splunk, USB Device                                   | Completed          |
+|   [WormSeen]() |   Medium   |                                     Exe Analysis, Forensic, Python                                    |       Completed    |
 
 
 
