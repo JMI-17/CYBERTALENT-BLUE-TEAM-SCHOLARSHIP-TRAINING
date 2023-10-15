@@ -21,31 +21,25 @@ Flag format: flag{X:Y:Z:W}<br />
 Note: our company uses Fortinet FortiGate firewall.<br />
 
 # Tools
-- Splunk Enterprise
-- dirsearch
+- Windows OS [Isolated Test Box]
+- WireShark
+- Process Hacker
 
 # Solution
-- A Link to a virtual machine hosting a splunk SIEM was provided and on getting to the interface i was provided with a serch bar to begining my investigation into the malicious activity <br />
-- I searched for ssh service and made use of [All time] as our time range, we get the first answer from the src_ip field = **19**.
-
-- I was able to get the ip address with the most connections from the same field as the firewall action is gotten by checking the action field which is blocked.
-
-- To get the country of the ip with the most connections, we use an VirusTotal service and we get finland as our answer.
-$ Dirsearch -u {THE SITE URL GOES HERE}<br />
-[13:14:29] Starting:<br />
-[13:15:27] 301 -  185B  - /files  -> (http://SITEURL..com/files)/<br />
-[13:15:28] 200 -    9KB - /files/<br />
-[13:15:31] 200 -  404B  - /index.html<br />
-![Bean2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/48046dcc-5cd4-418a-ae47-cb35af344c5b)
--After trying to look into several directories i decided to check the descrition line that tell us Come back home Mr. Bean.<br />
--Navigate to the home directory of Mr. Bean on ur prowser by going to: (http://SITEURL..com/files/../home/)<br />
-- Dowload the flag.txt filethe la is present there<br />
+- A Link to a worm.zip file was provided, I ran it in an isolated windows 10 machine, and show the result in Process Hacker tool.<br />
+![WS-2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/27296215-1afb-4127-93f2-c35f304234ce)
+- I checked the network tap to see the connection that the file make:.
+![WS-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/1b107596-01e2-4773-8972-7229d5165e45)
+- Freom the above information, after the file was executed it started to scan the network Lets open Wireshark to see the range of scaned network and answer the flag.!<br />
+![WS-4](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/f241a2bf-562d-40ce-9ae6-081554ef19e0)
+- Now we want to know the range of ip address that the file scaned lets know from wireshark direct from first ip 192.168.1.171 and the last one 192.168.1.255
+![WS-5](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/a5b5d484-6ad4-476c-80de-c59a062c1d64)
 
 > [!IMPORTANT]
-> Using the format of the Flag provided
+> Using the information gotten and the format of the Flag provided
 
 <li>
 	<details>
 		<summary>Flag</summary>
-flag{19:91.224.160.108:Finland:Blocked}</details>
+flag{192.168.1.0/24:22:85}</details>
 </li>
