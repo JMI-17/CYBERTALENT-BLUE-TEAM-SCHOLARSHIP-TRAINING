@@ -6,8 +6,7 @@
 - Flag format: FLAG{host+process_Name+IP}.<br />
 
 # Tools
-- kali
-- Yara Script file
+- Jupyter
 
 # Solution
 - A link was provided to the jupyter enviroment, the password has already been provided. 
