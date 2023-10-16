@@ -23,14 +23,14 @@ $ Tshark -r ARP+Storm.pcap<br />
 - Now, in order to extract only the opcode value, we will use the cut command, which will let us choose which column (field) of the output to extract after specifying the diameter between the columns And also will redirect the output into a text file to save it
 using this command:<br />
 $ Tshark -r ARP+Storm.pcap | cut -d -f 19,20 > encoded_flag.txt<br />
-- The result output in the file is:
+- The result output in the file is:<br />
 ![Enc-2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/7c7a786c-c634-4472-b1ff-c5f6bb7da967)
 - We need to organize it by (deleting the *opcode*) so we use the cut command again and have only the last section of the 
-value (without the 0x). This is the file context when done:
+value (without the 0x). This is the file context when done:<br />
 ![Enc-3](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/5f75c78c-e4b9-4d10-94fa-561cf79ba211)
-- Now, to extract the last section of the hex (delete the 0x) to be able to decode it into a readable text, we use the following command:
+- Now, to extract the last section of the hex (delete the 0x) to be able to decode it into a readable text, we use the following command:<br />
 ![Enc-4](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/50556479-c0f8-4cd8-9bc9-22e48b6df7cf)
-- which is a base64 encoded value. We decode with:
+- which is a base64 encoded value. We decode with:<br />
 ![Enc-5](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/93954882-ab72-4348-a388-aa0206cbe932)
 <br />
 > [!IMPORTANT]
