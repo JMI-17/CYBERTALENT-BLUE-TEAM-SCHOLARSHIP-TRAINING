@@ -6,14 +6,14 @@
 # Tools
 - Kali
 - Wireshark
-- 
+- Virus total
 
 # Solution
-- A link was provided to Download the pcap captured, i aimed to collect text values that are sent as Hex values for the opcode option in the ARP Messages
-And here are the assigned ones with their description: Iana-arp-parameters<br />
-
-- To collect them, we start by dumping those ARP messages into a text file using tshark tool with the command:
-<br />
+- A link was provided to Download the pcap captured, I Uploaded the "challenge_refresher.pcapng" VirusTotal will scan the file using various antivirus engines and provide you with a report <br />
+![R1](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/9f7b45a6-2cdc-43b3-aed9-f9ef7f02c191)
+- 
+![R2](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/0b45a26c-a9be-4e6c-83df-1d9a31a929f7)
+- To collect them, we start by dumping those ARP messages into a text file using tshark tool with the command: <br />
 > [!IMPORTANT]
 > Using the format of the Flag provided
 <li>
