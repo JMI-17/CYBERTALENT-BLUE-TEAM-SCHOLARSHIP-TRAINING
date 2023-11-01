@@ -2,7 +2,8 @@
 Task Writeups
 ## 1 CERTIFIED SOC ANALYST
 ## 2 CERTIFIED THREAT HUNTER
-The main objective of this repository is to provide a comprehensive record of my progress and achievements during the cybersecurity training. It serves as a testament to my skills and capabilities as I tackled various challenges in the training program.
+The main objective of this repository is to provide a record of my progress and achievements during the cybersecurity training. </br>
+It serves as a documentation of how i engaged task while also applying my skills and capabilities gotten fromn the traning as I tackled various challenges in the training program.</br>
 
 ## Task Overview:
 The repository contains a detailed breakdown of each task, including the description, objectives, and requirements. It showcases the step-by-step approach I took to complete each task, highlighting the tools, techniques, and methodologies employed.
