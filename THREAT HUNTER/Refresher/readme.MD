@@ -22,12 +22,12 @@
 - $ wireshark challenge_refresher.pcapng<br />
 ![R6](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/cdad2bdd-2fea-449e-9076-c9de54a3d5c0)
 - $ ls -al<br />
+![R7](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/d1965b00-003a-43d0-bd93-2227e0032671)
 - I was unable to access the secret.zip file because of password restrictions <br />
 - After discusions in the forum, the hypothesis is that there is information in the pics folder that will help us access the secret.zip fil, so once i navigated to the folder holding the pics. I tried series of command to extract the information from the pics file the combination that gave us positive output:<br />
 - $ ls | awk -F '[._]' '{print $1 "_" $2}' | sort -g | awk -F '_' '{print $2}' | tr -d '\n'<br />
 - Output: iamsupersecretpasswordgood4uthefinding <br />
 - Extract the zip file with: $ 7z e secret.zip <br />
-![R7](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/d1965b00-003a-43d0-bd93-2227e0032671)
 ![R8](https://github.com/JMI-17/CYBERTALENT-BLUE-TEAM-SCHOLARSHIP-TRAINING/assets/69071528/8450cb1e-5823-4c29-b8b7-7957ba8ed6cc)
 - Once the file is extracted you will see a flag.txt file 
 > [!IMPORTANT]
